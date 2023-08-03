@@ -1,6 +1,6 @@
 ## Collatz Conjecture Visualization
 
-This Python program is designed to generate and visualize the Collatz sequence for a given positive integer. The Collatz sequence, also known as the 3n+1 sequence or hailstone sequence, is a sequence of numbers obtained by repeatedly applying the Collatz rule to a starting positive integer, until the sequence reaches the number 1.
+This Python program is designed to generate and visualize the [Collatz sequence](https://en.wikipedia.org/wiki/Collatz_conjecture) for a given positive integer. The Collatz sequence, also known as the 3n+1 sequence or hailstone sequence, is a sequence of numbers obtained by repeatedly applying the Collatz rule to a starting positive integer, until the sequence reaches the number 1.
 
 ### The Collatz conjecture states that for any positive integer n:
 
