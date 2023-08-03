@@ -15,12 +15,12 @@ Clone this repository to your local machine using the following command:
 
 bash
 Copy code
-git clone https://github.com/lorenzosuarez/Collatz-Sequences-Visualization.git
+```git clone https://github.com/lorenzosuarez/Collatz-Sequences-Visualization.git```
 Navigate to the project directory:
 
 bash
 Copy code
-cd collatz-conjecture
+```cd collatz-conjecture```
 Run the program by executing the Python script:
 
 Copy code
@@ -56,4 +56,11 @@ Copy code
 pip install matplotlib
 Execution
 When the program is run, it first prompts the user to enter a positive integer. If the user provides a non-positive value, an error message will be displayed. Otherwise, the program calculates the Collatz sequence for the input number using the collatz_sequence function and plots it using the plot_collatz_sequence function. The plot displays the variation of values in the Collatz sequence against the number of steps taken.
+
+## Collatz Conjecture Example
+
+![result graph](https://github.com/lorenzosuarez/Collatz-Sequences-Visualization/assets/55887438/27f74c72-0577-4a81-8ecb-6429c8355790)
+
+Description: This is an example of how the Collatz Conjecture program works. The user entered the number 165, and the program generated the Collatz sequence [165, 496, 248, 124, 62, 31, 94, 47, 142, 71, 214, 107, 322, 161, 484, 242, 121, 364, 182, 91, 274, 137, 412, 206, 103, 310, 155, 466, 233, 700, 350, 175, 526, 263, 790, 395, 1186, 593, 1780, 890, 445, 1336, 668, 334, 167, 502, 251, 754, 377, 1132, 566, 283, 850, 425, 1276, 638, 319, 958, 479, 1438, 719, 2158, 1079, 3238, 1619, 4858, 2429, 7288, 3644, 1822, 911, 2734, 1367, 4102, 2051, 6154, 3077, 9232, 4616, 2308, 1154, 577, 1732, 866, 433, 1300, 650, 325, 976, 488, 244, 122, 61, 184, 92, 46, 23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1] for that number.
+
 
